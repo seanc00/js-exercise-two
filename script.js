@@ -7,3 +7,22 @@ Task:
 - display values in textResult field
 
 */
+
+function concatenateFormFields() {
+  let concatenatedString = "";
+
+  for (i = 1; i < 7; i++) {
+    let fieldValue = document.getElementById("text" + i);
+    
+    concatenatedString += " " + fieldValue.value;
+    
+
+    //console.log(i);
+    //console.log(fieldValue.value);
+    console.log(concatenatedString);
+
+
+  }
+
+  //console.log("This fnc works")
+}
