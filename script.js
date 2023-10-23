@@ -16,13 +16,15 @@ function concatenateFormFields() {
     
     concatenatedString += " " + fieldValue.value;
     
-
+    // TESTS
     //console.log(i);
     //console.log(fieldValue.value);
-    console.log(concatenatedString);
-
-
+    //console.log(concatenatedString);
   }
 
+  let element = document.getElementById('textResult');
+  element.value = concatenatedString;
+
+  // TESTS
   //console.log("This fnc works")
 }
