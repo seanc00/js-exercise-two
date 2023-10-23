@@ -8,7 +8,6 @@ Task:
 
 */
 
-let seventhField = false;
 let maxValue = 7;
 
 function concatenateFormFields() {
@@ -35,105 +34,18 @@ function concatenateFormFields() {
 
 function addTextField() {
   maxValue = 8;
-  let element = document.getElementById('form');
+  let element = document.getElementById('field7');
   
   element.innerHTML = `
-    <button type="button" onclick="resetFormFields();">Reset Fields</button>
-    <button type="button" onclick="addText();">Add text to fields</button>
-    <button type="button" onclick="addTextField();">Add 7th field</button>
-    <button type="button" onclick="removeTextField();">Remove 7th field</button>
-
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text1">
-    </div>
-
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text2">
-    </div>
-            
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text3">
-    </div>
-            
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text4">
-    </div>
-          
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text5">
-    </div>
-      
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text6">
-    </div>
-
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text7">
-    </div>
-    
-
-    <button type="button" onclick="concatenateFormFields();">Press to concatenate text fields</button>
-
-    <div>
-      <label class="label">Result:</label>
-      <input type="text" id="textResult">
-    </div>
+    <label class="label">Enter a word:</label>
+    <input type="text" id="text7">
   `;
 }
 
 function removeTextField() {
   maxValue = 7;
-  let element = document.getElementById('form');
-  element.innerHTML = `
-    <button type="button" onclick="resetFormFields();">Reset Fields</button>
-    <button type="button" onclick="addText();">Add text to fields</button>
-    <button type="button" onclick="addTextField();">Add 7th field</button>
-    <button type="button" onclick="removeTextField();">Remove 7th field</button>
-
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text1">
-    </div>
-
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text2">
-    </div>
-            
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text3">
-    </div>
-            
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text4">
-    </div>
-          
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text5">
-    </div>
-      
-    <div>
-      <label class="label">Enter a word:</label>
-      <input type="text" id="text6">
-    </div> 
-
-    <button type="button" onclick="concatenateFormFields();">Press to concatenate text fields</button>
-
-    <div>
-      <label class="label">Result:</label>
-      <input type="text" id="textResult">
-    </div>
-  `;
+  let element = document.getElementById('field7');
+  element.innerHTML = ``;
 }
 
 
