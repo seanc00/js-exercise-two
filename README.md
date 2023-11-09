@@ -6,6 +6,7 @@ TO BE MARKED:
 - Concatenate all fields with a press of  button
 - all fields can be editted with custom user input
 - Able to add and remove a 7th field, and still able to concatenate all fields 1-6/7.
+
 EXTRA
 - Fill in all 6/7 fields automatically with preset text
 - Remove/reset all fields
